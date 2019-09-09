@@ -17,4 +17,7 @@ class Song
     return @@count
   end
 
+  def self.artists
+    @@artists.uniq
+  end
 end
